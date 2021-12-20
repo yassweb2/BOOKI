@@ -1,0 +1,440 @@
+*
+{
+    word-wrap: break-word;
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+/*  header  */
+header
+{
+    width: 100%;
+    height: 90px;
+}
+#menu
+{
+    display: flex;
+    justify-content: space-between ;
+}
+nav ul li
+{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+
+}
+nav ul li a
+{
+    text-decoration: none;
+    padding-top: 20px;
+    color: gray;
+    font-size: 17px;
+}
+.hebergements
+{
+    right: 150%;
+    top: 30px;
+}
+.activites
+{
+    right: 100%;
+    top: 30px;
+}
+nav ul li a:focus
+{
+    border-top: 2px solid #0065FC;
+    color: #0065FC;
+}
+/*  Barre de recherche  */
+#search
+{
+    display: flex;
+}
+.map
+{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F2F2F2;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.recherche
+{
+    height: 50px;
+    font-size: 15px;
+    border: none;
+}
+.rechercher
+{
+    background-color: #0065FC;
+    color: white;
+    height: 50px;
+    width: 100px;
+    border: none;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+/*  FILTRES  */
+#filtres
+{
+    display: flex;
+}
+.filtres
+{
+    display: flex;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.filtre
+{
+    display: flex;
+    border: 2px #F2F2F2 solid;
+    border-radius: 25px;
+    margin-right: 20px;
+    text-decoration: none;
+}
+.icon
+{
+    height: 40px;
+    width: 40px;
+    color: #0065FC;
+    background-color: #DEEBFF;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.txt
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+.ft
+{
+    margin-top: 28px;
+}
+.filtre:hover
+{
+    background-color: #0065FC;
+    transition: 1s;
+}
+/*  info  */
+#info
+{
+    display: flex;
+}
+.info
+{
+    height: 30px;
+    width: 30px;
+    border: 1px solid #F2F2F2;
+    border-radius: 25px;
+    background-color: #0065FC;
+    color: white;
+    margin-top: 15px;
+}
+.tx
+{
+    margin-top: 22PX;
+    margin-left: 5px;
+}
+/* heb à marseille */
+#container
+{
+    display: flex;
+}
+#hebergement
+{
+    margin-left: 3%;
+    margin-top: 20px;
+    width: 60%;
+    height: 600px;
+    background-color: #F2F2F2;
+    border: none;
+    border-radius: 30px;
+}
+.house
+{
+    display: flex;
+    justify-content: space-around;
+}
+.room
+{
+    height: 190px;
+    width: 27%;
+    margin-top: 20px;
+    background-color: white;
+    border: white 4px solid;
+    border-radius: 30px;
+    text-decoration: none;
+}
+.room1
+{
+    height: 120px;
+    width: 100%;
+    border: none;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+.title2
+{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.stars
+{
+    display: flex;
+}
+.starblue
+{
+    color: #0065FC;
+}
+.stargrey
+{
+    color: #a59595;
+}
+.ap a
+{
+    text-decoration: none;
+    margin-left: 20px;
+    color: black;
+    font-size: large;
+    font-weight: bold;
+}
+.ap a:hover
+{
+    color: #0065FC;
+}
+.room:hover
+{
+    box-shadow: 3px 3px 3px rgb(163, 163, 196);
+}
+.black
+{
+    color: black;
+}
+/*  les plus populaires */
+.title1
+{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+#lpp
+{
+    margin-top: 20px;
+    width: 30%;
+    height: 600px;
+    background-color: #F2F2F2;
+    border: none;
+    border-radius: 25px;   
+    margin-left: 2.5%;
+}
+.roomlpp1
+{
+    height: 130px;
+    width: 140px;
+    border: none;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-top: 5px;
+    margin-left: 5px;
+    display: flex;
+}
+.roomlpp
+{
+    display: flex;
+    height: 140px;
+    width: 80%;
+    background-color: white;
+    margin-left: 10%;
+    margin-top: 8%;
+    border: none;
+    border-radius: 20px;
+}
+.txt2
+{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.titleg
+{
+    display: flex;
+    justify-content: space-around;
+}
+.graph
+{
+    margin-top: 6%;
+    font-size: 20px;
+    text-decoration: none;  
+}
+.td
+{
+    text-decoration: none;
+    color: black;
+}
+.graph a
+{
+    color: black;
+}
+.graph a:hover
+{
+    color: #0065FC; 
+}
+.roomlpp:hover
+{
+    box-shadow: 3px 3px 3px rgb(163, 163, 196);
+}
+/*  act à marseille  */
+#activites
+{
+    height: 620px;
+    width: 92.5%;
+    margin-left: 3%;
+}
+#containera
+{
+    display: flex;
+    width: 50%;
+    height: 430px;
+    margin-top: 50px;
+}
+#containerb
+{
+    margin-left: 30px;
+    display: flex;
+    width: 50%;
+    height: 430px;
+    margin-top: 50px;
+}
+#container1
+{
+    display: flex;
+}
+.block
+{
+    width: 45%;
+    height: 430px;
+    margin-left: 7%;
+}
+.vp
+{
+    width: 45%;
+    height: 430px;
+    border-radius: 25px;
+    box-shadow: 3px 3px 3px rgb(163, 163, 196);
+}
+.img1
+{
+    width: 100%;
+    height: 380px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    overflow: hidden;
+}
+.fodp
+{
+    width: 100%;
+    height: 220px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px rgb(163, 163, 196);
+}
+.img2
+{
+    width: 100%;
+    height: 170px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.idf
+{
+    margin-top: 30px;
+    width: 100%;
+    height: 180px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px rgb(163, 163, 196);
+}
+.img3
+{
+    width: 100%;
+    height: 130px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.pndc
+{
+    width: 45%;
+    height: 430px;
+    border-radius: 25px;
+    box-shadow: 3px 3px 3px rgb(163, 163, 196);
+}
+.nddlg
+{
+    width: 100%;
+    height: 180px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px rgb(163, 163, 196);
+}
+.img4
+{
+    width: 100%;
+    height: 130px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.img5
+{
+    width: 100%;
+    height: 170px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.pl
+{
+    margin-top: 20px;
+    width: 100%;
+    height: 230px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px rgb(163, 163, 196);
+}
+.black1
+{
+    height: 50px;
+    color: black;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+.shadow a:hover
+{
+    box-shadow: 6px 6px 6px rgb(119, 57, 57);
+}
+/*  footer  */
+#footer
+{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #F2F2F2;
+}
+.foot
+{
+    margin-top: 50px;
+}
+.titleh3
+{
+    margin-bottom: 20px;
+}
+.br
+{
+    margin-top: 8px;
+}
+.br a:hover
+{
+    color: #0065FC; 
+}
