@@ -8,37 +8,36 @@
 /*  header  */
 header
 {
-    width: 100%;
+    width: 95%;
     height: 90px;
+    margin-left: 50px;
 }
 #menu
 {
     display: flex;
-    justify-content: space-between ;
+    justify-content: space-between;
+}
+#menu img
+{
+    margin-top: 20px;
 }
 nav ul li
 {
     list-style: none;
     display: inline-block;
-    position: relative;
-
+    margin-top: 50px;
+    margin-right: 60px;
 }
 nav ul li a
 {
     text-decoration: none;
-    padding-top: 20px;
-    color: gray;
-    font-size: 17px;
+    color: black;
+    font-size: 18px; 
+    padding-top: 40px;
 }
-.hebergements
+.top
 {
-    right: 150%;
-    top: 30px;
-}
-.activites
-{
-    right: 100%;
-    top: 30px;
+    margin-left: 50px;
 }
 nav ul li a:focus
 {
@@ -49,6 +48,11 @@ nav ul li a:focus
 #search
 {
     display: flex;
+    margin-top: 7px;
+}
+.recherche::placeholder
+{
+    color: black;
 }
 .map
 {
@@ -64,8 +68,9 @@ nav ul li a:focus
 .recherche
 {
     height: 50px;
-    font-size: 15px;
-    border: none;
+    font-size: 18px;
+    border: solid #F2F2F2 2px;
+    font-weight: bold;
 }
 .rechercher
 {
@@ -74,6 +79,8 @@ nav ul li a:focus
     height: 50px;
     width: 100px;
     border: none;
+    font-weight: bold;
+    font-size: 16px;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
 }
@@ -81,6 +88,7 @@ nav ul li a:focus
 #filtres
 {
     display: flex;
+    margin-top: 10px;
 }
 .filtres
 {
@@ -88,103 +96,173 @@ nav ul li a:focus
     margin-left: 30px;
     margin-top: 20px;
 }
-.filtre
+.filtre1
 {
+    font-weight: bold;
     display: flex;
-    border: 2px #F2F2F2 solid;
+    border: 2px #d9d9d9 solid;
+    border-radius: 50px;
+    margin-right: 20px;
+    text-decoration: none;
+    width: 170px;
+}
+.filtre2
+{
+    font-weight: bold;
+    display: flex;
+    border: 2px #d9d9d9 solid;
     border-radius: 25px;
     margin-right: 20px;
     text-decoration: none;
+    width: 140px;
+}
+.filtre3
+{
+    font-weight: bold;
+    display: flex;
+    border: 2px #d9d9d9 solid;
+    border-radius: 25px;
+    margin-right: 20px;
+    text-decoration: none;
+    width: 170px;
+}
+.filtre4
+{
+    font-weight: bold;
+    display: flex;
+    border: 2px #d9d9d9 solid;
+    border-radius: 25px;
+    margin-right: 20px;
+    text-decoration: none;
+    width: 230px;
 }
 .icon
 {
-    height: 40px;
-    width: 40px;
+    height: 50px;
+    width: 50px;
     color: #0065FC;
     background-color: #DEEBFF;
-    border-radius: 25px;
+    border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: -2px;
+    margin-top: -2px;
+    margin-bottom: -2px;
 }
-.txt
+.txte
 {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 20px;
     color: black;
 }
+.txta
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    color: black;
+}
+.txtf
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    color: black;
+}
+.txtr
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    color: black;
+}
+
 .ft
 {
-    margin-top: 28px;
+    margin-top: 32px;
 }
-.filtre:hover
+.hover:hover
 {
-    background-color: #0065FC;
+    background-color: #DEEBFF;
     transition: 1s;
 }
 /*  info  */
-#info
+#info {
+	display: flex;
+	align-items: center;
+    margin-top: 20px;
+}
+#info p
 {
+	padding-top: 5px;
+    padding-left: 10px;
+}
+
+#cercle {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    min-width: 40px;
+    border: 2px #d9d9d9 solid;
+    border-radius: 50%;
 }
-.info
+#info i 
 {
-    height: 30px;
-    width: 30px;
-    border: 1px solid #F2F2F2;
-    border-radius: 25px;
-    background-color: #0065FC;
-    color: white;
-    margin-top: 15px;
-}
-.tx
-{
-    margin-top: 22PX;
-    margin-left: 5px;
+    color: #0065FC;
 }
 /* heb à marseille */
 #container
 {
     display: flex;
+    width: 100%;
 }
 #hebergement
 {
     margin-left: 3%;
-    margin-top: 20px;
-    width: 60%;
+    margin-top: 30px;
+    width: 61%;
     height: 600px;
     background-color: #F2F2F2;
     border: none;
-    border-radius: 30px;
+    border-radius: 25px;
 }
 .house
 {
     display: flex;
     justify-content: space-around;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .room
 {
     height: 190px;
-    width: 27%;
+    width: 28%;
     margin-top: 20px;
     background-color: white;
     border: white 4px solid;
-    border-radius: 30px;
+    border-radius: 20px;
     text-decoration: none;
 }
 .room1
 {
-    height: 120px;
+    height: 110px;
     width: 100%;
     border: none;
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    object-fit: cover;
 }
 .title2
 {
-    margin-top: 30px;
-    margin-left: 30px;
+    margin-top: 40px;
+    margin-left: 20px;
 }
 .stars
 {
@@ -198,6 +276,11 @@ nav ul li a:focus
 {
     color: #a59595;
 }
+.ap
+{
+    margin-top: 40px;
+    margin-left: 20px;
+}
 .ap a
 {
     text-decoration: none;
@@ -210,29 +293,19 @@ nav ul li a:focus
 {
     color: #0065FC;
 }
-.room:hover
-{
-    box-shadow: 3px 3px 3px rgb(163, 163, 196);
-}
 .black
 {
     color: black;
 }
 /*  les plus populaires */
-.title1
-{
-    display: flex;
-    margin-top: 20px;
-    margin-left: 20px;
-}
 #lpp
 {
-    margin-top: 20px;
+    margin-top: 30px;
     width: 30%;
     height: 600px;
     background-color: #F2F2F2;
     border: none;
-    border-radius: 25px;   
+    border-radius: 20px;   
     margin-left: 2.5%;
 }
 .roomlpp1
@@ -245,6 +318,7 @@ nav ul li a:focus
     margin-top: 5px;
     margin-left: 5px;
     display: flex;
+    object-fit: cover;
 }
 .roomlpp
 {
@@ -253,7 +327,7 @@ nav ul li a:focus
     width: 80%;
     background-color: white;
     margin-left: 10%;
-    margin-top: 8%;
+    margin-top: 20px;
     border: none;
     border-radius: 20px;
 }
@@ -269,7 +343,7 @@ nav ul li a:focus
 }
 .graph
 {
-    margin-top: 6%;
+    margin-top: 40px;
     font-size: 20px;
     text-decoration: none;  
 }
@@ -286,23 +360,20 @@ nav ul li a:focus
 {
     color: #0065FC; 
 }
-.roomlpp:hover
-{
-    box-shadow: 3px 3px 3px rgb(163, 163, 196);
-}
 /*  act à marseille  */
 #activites
 {
     height: 620px;
-    width: 92.5%;
-    margin-left: 3%;
+    width: 93.5%;
+    margin-left: 50px;
+    margin-top: 80px;
 }
 #containera
 {
     display: flex;
     width: 50%;
     height: 430px;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 #containerb
 {
@@ -310,11 +381,15 @@ nav ul li a:focus
     display: flex;
     width: 50%;
     height: 430px;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 #container1
 {
     display: flex;
+}
+.title0
+{
+    margin-left: 0px;
 }
 .block
 {
@@ -336,6 +411,7 @@ nav ul li a:focus
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     overflow: hidden;
+    object-fit: cover;
 }
 .fodp
 {
@@ -350,6 +426,7 @@ nav ul li a:focus
     height: 170px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+    object-fit: cover;
 }
 .idf
 {
@@ -365,12 +442,13 @@ nav ul li a:focus
     height: 130px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+    object-fit: cover;
 }
 .pndc
 {
     width: 45%;
     height: 430px;
-    border-radius: 25px;
+    border-radius: 20px;
     box-shadow: 3px 3px 3px rgb(163, 163, 196);
 }
 .nddlg
@@ -386,6 +464,7 @@ nav ul li a:focus
     height: 130px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+    object-fit: cover;
 }
 .img5
 {
@@ -393,6 +472,7 @@ nav ul li a:focus
     height: 170px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+    object-fit: cover;
 }
 .pl
 {
@@ -406,12 +486,9 @@ nav ul li a:focus
 {
     height: 50px;
     color: black;
-    margin-top: 5px;
-    margin-left: 15px;
-}
-.shadow a:hover
-{
-    box-shadow: 6px 6px 6px rgb(119, 57, 57);
+    display: flex;
+    margin-left: 10px;
+    align-items: center;
 }
 /*  footer  */
 #footer

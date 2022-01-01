@@ -8,7 +8,9 @@
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
         <meta charset="UTF-8"/>
         <title>Booki</title>
-        <link rel="stylesheet" href="booki.css"/>
+        <link rel="stylesheet"  href="booki.css"/>
+        <link rel="stylesheet" media="screen and (max-width:992px)" href="booki-tablette.css"/>
+        <link rel="stylesheet" media="screen and (max-device-width:768px)" href="booki-mobile.css"/>
     </head>
     <body>
         <header>
@@ -22,8 +24,9 @@
                     </nav>
             </div>
         </header>
-        <section>
+        <section class="top">
             <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+            <br>
             <p>En plein centre ville ou en pleine nature</p></br>
             <form>
             <div id="search">
@@ -39,34 +42,36 @@
                 <div class="ft"><h3>Filtres</h3></div>
                 <div class="filtres">
                     <div>
-                        <a class="filtre" href="#">
+                        <a class="filtre1 hover" href="#">
                           <div class="icon"><i class="fas fa-money-bill-wave"></i></div>
-                          <div class="txt">Economique</div>
+                          <div class="txte">Economique</div>
                         </a>
                     </div>
                     <div>
-                        <a class="filtre" href="#">
+                        <a class="filtre2 hover" href="#">
                           <div class="icon"><i class="fas fa-child"></i></div>
-                          <div class="txt">Familial</div>
+                          <div class="txtf">Familial</div>
                         </a>
                     </div>
                     <div>
-                        <a class="filtre" href="#">
+                        <a class="filtre3 hover" href="#">
                           <div class="icon"><i class="fas fa-heart"></i></div>
-                          <div class="txt">Romantique</div>
+                          <div class="txtr">Romantique</div>
                         </a>
                     </div>
                     <div>
-                        <a class="filtre" href="#">
+                        <a class="filtre4 hover" href="#">
                           <div class="icon"><i class="fas fa-dog"></i></div>
-                          <div class="txt">Animaux autorisés</div>
+                          <div class="txta">Animaux autorisés</div>
                         </a>
                     </div>
                 </div>  
             </div>
             <div id="info">
-                <div class="info"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="circle-info" class="svg-inline--fa fa-circle-info" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 0C114.6 0 0 114.6 0 256s114.6 256 256 256s256-114.6 256-256S397.4 0 256 0zM256 128c17.67 0 32 14.33 32 32c0 17.67-14.33 32-32 32S224 177.7 224 160C224 142.3 238.3 128 256 128zM296 384h-80C202.8 384 192 373.3 192 360s10.75-24 24-24h16v-64H224c-13.25 0-24-10.75-24-24S210.8 224 224 224h32c13.25 0 24 10.75 24 24v88h16c13.25 0 24 10.75 24 24S309.3 384 296 384z"></path></svg></div>
-                <div class="tx"> Plus de 500 logements sont disponibles dans cette ville</div>
+                <div id="cercle">
+                    <i class="fas fa-info cercle"></i>
+                </div>
+                <p>Plus de 500 logements sont disponibles dans cette ville</p>
             </div>
         </section>
         <section>
@@ -107,7 +112,7 @@
                           <div>
                              <div class="black">
                              <h3>Hôtel les mouettes</h3>
-                             <p>Nuit à partir de 76€</p>
+                             <div>Nuit à partir de 76€</div>
                              </div>
                              <div class="stars">
                                 <div class="starblue"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
@@ -149,7 +154,7 @@
                         </div>
                         </a>
                         <a class="room" href="#">
-                        <div>
+                         <div>
                             <img class="room1" src="room6.jpg"/> 
                             <div>
                                 <div class="black">
@@ -158,10 +163,9 @@
                                 </div>
                                 <div class="starblue"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
                             </div>               
-                        </div>
+                         </div>
                         </a>
                     </div>
-                </br></br>
                     <div class="ap"><a href="#">Afficher Plus</a></div>
                 </div>
                 <div id="lpp">
@@ -169,36 +173,34 @@
                         <div class="title2"><h2>Les plus populaires</h2></div>
                         <div class="graph"><a href="#"><i class="fas fa-chart-line"></i></a></div>
                     </div>
-                    <div>
+                    <div class="lppp">
                         <a class="td" href="#">
-                        <div class="roomlpp">
+                         <div class="roomlpp">
                             <div><img class="roomlpp1" src="room7.jpg"/></div>
                             <div class="txt2">
                                 <div class="black">
                                 <h3>Hôtel le soleil du matin</h3>
                                 <p>Nuit à partir de 128€</p>
                                 </div>
-                            </br></br>
                                 <div class="starblue"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
                             </div>
-                        </div>
-                    </a>
-                    <a class="td" href="#">
-                        <div class="roomlpp">
+                         </div>
+                        </a>
+                        <a class="td" href="#">
+                         <div class="roomlpp">
                             <div><img class="roomlpp1" src="room8.jpg"/></div>
                             <div class="txt2">
                                 <div class="black">
                                 <h3>Au coeur de l'eau Chambres d'hôtes</h3>
                                 <p>Nuit à partir de 71€</p>
                                 </div>
-                            </br></br>
                                 <div class="stars">
                                     <div class="starblue"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
                                     <div class="stargrey"><i class="bi bi-star-fill"></i></div>
                                 </div>
                             </div>
                         </div>
-                    </a>
+                        </a>
                         <a class="td" href="#">
                         <div class="roomlpp">
                             <img class="roomlpp1" src="room9.jpg"/>
@@ -207,7 +209,6 @@
                                 <h3>Hôtel tout bleu et blanc</h3>
                                 <p>Nuit à partir de 68€</p>
                                 </div>
-                            </br></br>
                                 <div class="stars">
                                     <div class="starblue"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
                                     <div class="stargrey"><i class="bi bi-star-fill"></i></div>
@@ -222,7 +223,7 @@
         <section>
             <div id="container2">
                 <div id="activites">
-                        <div class="title2"><h2>Activités à Marseille</h2></div>
+                        <div class="title0"><h2>Activités à Marseille</h2></div>
                         <div id="container1">
                          <div id="containera">
                             <div class="vp">

@@ -1,0 +1,49 @@
+#container
+{
+    width: 100%;
+    flex-direction: column;
+}
+#hebergement
+{
+    width: 90%;
+    margin-left: 5%;
+}
+/*  hebergement  */
+#lpp
+{
+    height: 400px;
+    width: 90%;
+    margin-left: 5%;
+}
+.lppp
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: space-around;
+    height: 300px;
+}
+.td
+{
+    height: 80%;
+    width: 28%;
+    margin-top: 20px;
+    background-color: white;
+    border: white 4px solid;
+    border-radius: 20px;
+    text-decoration: none;
+}
+.roomlpp1
+{
+    height: 120px;
+    width: 100%;
+    border: none;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    object-fit: cover;
+    margin-top: 0;
+}
+.roomlpp
+{
+    display: flex;
+    flex-direction: column;
+}
