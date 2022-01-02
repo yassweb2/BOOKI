@@ -9,22 +9,30 @@
     margin-left: 5%;
 }
 /*  hebergement  */
+.titleg
+{
+    height: 50px;
+    width: 100%;
+}
 #lpp
 {
-    height: 400px;
+    height: 350px;
     width: 90%;
     margin-left: 5%;
 }
 .lppp
 {
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
     align-items: space-around;
     height: 300px;
+    width: 100%;
+    margin-top: 20px;
 }
 .td
 {
-    height: 80%;
+    height: 210px;
     width: 28%;
     margin-top: 20px;
     background-color: white;
@@ -32,18 +40,33 @@
     border-radius: 20px;
     text-decoration: none;
 }
-.roomlpp1
-{
-    height: 120px;
-    width: 100%;
-    border: none;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    object-fit: cover;
-    margin-top: 0;
-}
 .roomlpp
 {
+    height: 190px;
+    width: 100%;
     display: flex;
     flex-direction: column;
+    margin-top: 0;
+    margin-left: 0;
+}
+.roomlpp1
+{
+    width: 100%;
+    height: 110px;
+    margin-top: 0;
+    margin-left: 0;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 20px;
+}
+.graph
+{
+    margin-right: 30px;
+}
+#activites
+{
+    height: 620px;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 50px;
 }

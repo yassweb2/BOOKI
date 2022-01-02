@@ -339,7 +339,7 @@ nav ul li a:focus
 .titleg
 {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .graph
 {
@@ -489,6 +489,11 @@ nav ul li a:focus
     display: flex;
     margin-left: 10px;
     align-items: center;
+}
+.td2
+{
+    text-decoration: none;
+    color: black;
 }
 /*  footer  */
 #footer
