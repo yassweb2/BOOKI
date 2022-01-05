@@ -34,12 +34,14 @@ nav ul li a
     color: black;
     font-size: 18px; 
     padding-top: 40px;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 .top
 {
     margin-left: 50px;
 }
-nav ul li a:focus
+nav ul li a:hover
 {
     border-top: 2px solid #0065FC;
     color: #0065FC;
@@ -64,6 +66,10 @@ nav ul li a:focus
     background-color: #F2F2F2;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
+}
+.iconrech
+{
+    display: none;
 }
 .recherche
 {
@@ -95,6 +101,7 @@ nav ul li a:focus
     display: flex;
     margin-left: 30px;
     margin-top: 20px;
+    flex-wrap: wrap;
 }
 .filtre1
 {
@@ -105,6 +112,7 @@ nav ul li a:focus
     margin-right: 20px;
     text-decoration: none;
     width: 170px;
+    margin-bottom: 15px;
 }
 .filtre2
 {
@@ -115,6 +123,7 @@ nav ul li a:focus
     margin-right: 20px;
     text-decoration: none;
     width: 140px;
+    margin-bottom: 15px;
 }
 .filtre3
 {
@@ -125,6 +134,7 @@ nav ul li a:focus
     margin-right: 20px;
     text-decoration: none;
     width: 170px;
+    margin-bottom: 15px;
 }
 .filtre4
 {
@@ -135,6 +145,7 @@ nav ul li a:focus
     margin-right: 20px;
     text-decoration: none;
     width: 230px;
+    margin-bottom: 15px;
 }
 .icon
 {
@@ -189,7 +200,8 @@ nav ul li a:focus
 }
 .hover:hover
 {
-    background-color: #DEEBFF;
+    background-color: #0065FC;
+    border: 2px white solid;
     transition: 1s;
 }
 /*  info  */
@@ -218,6 +230,13 @@ nav ul li a:focus
     color: #0065FC;
 }
 /* heb à marseille */
+.txth
+{
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 #container
 {
     display: flex;
@@ -228,10 +247,18 @@ nav ul li a:focus
     margin-left: 3%;
     margin-top: 30px;
     width: 61%;
-    height: 600px;
+    height: 650px;
     background-color: #F2F2F2;
     border: none;
     border-radius: 25px;
+}
+.house2
+{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
 }
 .house
 {
@@ -242,7 +269,7 @@ nav ul li a:focus
 }
 .room
 {
-    height: 190px;
+    height: 210px;
     width: 28%;
     margin-top: 20px;
     background-color: white;
@@ -252,7 +279,7 @@ nav ul li a:focus
 }
 .room1
 {
-    height: 110px;
+    height: 120px;
     width: 100%;
     border: none;
     border-top-left-radius: 20px;
@@ -263,6 +290,10 @@ nav ul li a:focus
 {
     margin-top: 40px;
     margin-left: 20px;
+}
+.star1
+{
+    margin-bottom: 15px;
 }
 .stars
 {
@@ -302,7 +333,7 @@ nav ul li a:focus
 {
     margin-top: 30px;
     width: 30%;
-    height: 600px;
+    height: 650px;
     background-color: #F2F2F2;
     border: none;
     border-radius: 20px;   
@@ -310,12 +341,13 @@ nav ul li a:focus
 }
 .roomlpp1
 {
-    height: 130px;
+    height: 155px;
     width: 140px;
     border: none;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     margin-top: 5px;
+    margin-bottom: 5px;
     margin-left: 5px;
     display: flex;
     object-fit: cover;
@@ -323,18 +355,22 @@ nav ul li a:focus
 .roomlpp
 {
     display: flex;
-    height: 140px;
-    width: 80%;
+    height: 30%;
+    width: 90%;
     background-color: white;
-    margin-left: 10%;
+    margin-left: 5%;
     margin-top: 20px;
     border: none;
     border-radius: 20px;
 }
 .txt2
 {
+    margin-bottom: 10px;
     margin-top: 10px;
     margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .titleg
 {
@@ -343,9 +379,14 @@ nav ul li a:focus
 }
 .graph
 {
-    margin-top: 40px;
+    margin-top: 45px;
+    margin-right: 20px;
     font-size: 20px;
     text-decoration: none;  
+}
+.bold
+{
+    font-weight: bold;
 }
 .td
 {

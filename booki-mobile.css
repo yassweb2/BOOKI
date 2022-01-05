@@ -1,7 +1,11 @@
+*
+{
+    font-size: 40px;
+}
 header
 {
     width: 100%;
-    height: 400px;
+    height: 300px;
     margin-left: 0;
 }
 #menu
@@ -11,15 +15,37 @@ header
 }
 .logo
 {
-    height: 40px;
-    width: 90px;
+    height: 150px;
+    width: 300px;
     display: flex;
     justify-content: center;
     align-self: center;
 }
+.hebact
+{
+    width: 100%;
+    font-size: 300px;
+}
 .hebergements
 {
     width: 50%;
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: #f2f2f2 2px solid;
+    font-size: 40px;
+}
+.activites
+{
+    width: 50%;
+    text-align: center;
+    border-bottom: #f2f2f2 2px solid;
+}
+nav ul li
+{
+    list-style: none;
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 0;
 }
 nav ul
 {
@@ -27,8 +53,68 @@ nav ul
     justify-content: space-around;
     align-items: space-around;
 }
-.hebact
+nav ul li a
 {
     width: 100%;
-    border-bottom: grey 2px solid;
+    text-align: center;
+}
+nav ul li a:hover
+{
+    border-top: none;
+}
+.hebergements:hover
+{
+    border-bottom: 2px solid #0065FC;
+    color: #0065FC;
+}
+.activites:hover
+{
+    border-bottom: 2px solid #0065FC;
+    color: #0065FC;
+}
+/*  menu  */
+.br
+{
+    display: flex;
+    flex-direction: column;
+}
+.top
+{
+    margin-left: 50px;
+    width: 100%;
+}
+/* -- */
+.iconrech
+{
+    display: flex;
+    justify-content: center;
+}
+.rechercher
+{
+    width: 50px;
+}
+
+.rech
+{
+    display: none;
+}
+#search
+{
+    width: 80%;
+}
+/*  Barre de recherche  */   
+#filtres
+{
+    display: flex;
+    flex-direction: column;
+    
+}
+.filtres
+{
+    margin-left: 0;
+}
+#container
+{
+    display: flex;
+    flex-direction: column;
 }
