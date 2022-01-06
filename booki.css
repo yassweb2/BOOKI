@@ -5,6 +5,11 @@
     padding: 0;
     font-family: 'Raleway', sans-serif;
 }
+body
+{
+    margin: 0;
+    padding: 0;
+}
 /*  header  */
 header
 {
@@ -17,7 +22,7 @@ header
     display: flex;
     justify-content: space-between;
 }
-#menu img
+.logo
 {
     margin-top: 20px;
 }
@@ -41,6 +46,10 @@ nav ul li a
 {
     margin-left: 50px;
 }
+.top p
+{
+    margin-top: 10px;
+}
 nav ul li a:hover
 {
     border-top: 2px solid #0065FC;
@@ -50,7 +59,7 @@ nav ul li a:hover
 #search
 {
     display: flex;
-    margin-top: 7px;
+    margin-top: 20px;
 }
 .recherche::placeholder
 {
@@ -95,13 +104,19 @@ nav ul li a:hover
 {
     display: flex;
     margin-top: 10px;
+    width: 100%;
 }
 .filtres
 {
+    width: 100%;
     display: flex;
     margin-left: 30px;
     margin-top: 20px;
     flex-wrap: wrap;
+}
+.filtre12
+{
+    display: flex;
 }
 .filtre1
 {
@@ -212,8 +227,8 @@ nav ul li a:hover
 }
 #info p
 {
-	padding-top: 5px;
-    padding-left: 10px;
+	margin-top: 5px;
+    margin-left: 10px;
 }
 
 #cercle {
@@ -244,7 +259,7 @@ nav ul li a:hover
 }
 #hebergement
 {
-    margin-left: 3%;
+    margin-left: 50px;
     margin-top: 30px;
     width: 61%;
     height: 650px;
@@ -443,6 +458,7 @@ nav ul li a:hover
     width: 45%;
     height: 430px;
     border-radius: 25px;
+    margin-top: 40px;
     box-shadow: 3px 3px 3px rgb(163, 163, 196);
 }
 .img1

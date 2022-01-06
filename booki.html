@@ -8,9 +8,10 @@
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
         <meta charset="UTF-8"/>
         <title>Booki</title>
-        <link rel="stylesheet"  href="booki.css"/>
+        <link rel="stylesheet" href="booki.css"/>
         <link rel="stylesheet" media="screen and (max-width:992px)" href="booki-tablette.css"/>
-        <link rel="stylesheet" media="screen and (max-device-width:768px)" href="booki-mobile.css"/>
+        <link rel="stylesheet" media="screen and (max-width:768px)" href="booki-mobile.css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
         <header>
@@ -28,21 +29,18 @@
         </header>
         <section class="top">
             <h1>Trouvez votre hébergement <span class="br">pour des vacances de rêve</span></h1>
-            <br>
-            <p>En plein centre ville ou en pleine nature</p></br>
+            <p>En plein centre ville ou en pleine nature</p>
             <form>
             <div id="search">
-                <div class="map"><label><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
-                    <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
-                  </svg></label>
-                </div>
-                <div><input class="recherche" type="search" placeholder="Marseille, France" /></div>
-                <div><button class="rechercher"><span class="rech">Rechercher</span><span class="iconrech"><i class="fas fa-search"></i></span></button></div>
+                <div class="map"><label><i class="fas fa-map-marker-alt"></i></label></div>
+                <div class="recherche1"><input class="recherche" type="search" placeholder="Marseille, France" /></div>
+                <div class="rechercher1"><button class="rechercher"><span class="rech">Rechercher</span><span class="iconrech"><i class="fas fa-search"></i></span></button></div>
             </div>
             </form>
             <div id="filtres">
                 <div class="ft"><h3>Filtres</h3></div>
                 <div class="filtres">
+                    <div class="filtre12">
                     <div>
                         <a class="filtre1 hover" href="#">
                           <div class="icon"><i class="fas fa-money-bill-wave"></i></div>
@@ -54,6 +52,7 @@
                           <div class="icon"><i class="fas fa-child"></i></div>
                           <div class="txtf">Familial</div>
                         </a>
+                    </div>
                     </div>
                     <div>
                         <a class="filtre3 hover" href="#">
@@ -178,7 +177,7 @@
                     <div class="lppp">
                         <a class="td" href="#">
                          <div class="roomlpp">
-                            <div><img class="roomlpp1" src="room7.jpg"/></div>
+                            <div class="roomlpp12"><img class="roomlpp1" src="room7.jpg"/></div>
                             <div class="txt2">
                                 <div class="black">
                                 <h3>Hôtel le soleil du matin</h3>
@@ -190,7 +189,7 @@
                         </a>
                         <a class="td" href="#">
                          <div class="roomlpp">
-                            <div><img class="roomlpp1" src="room8.jpg"/></div>
+                            <div class="roomlpp12"><img class="roomlpp1" src="room8.jpg"/></div>
                             <div class="txt2">
                                 <div class="black">
                                 <h3>Au coeur de l'eau Chambres d'hôtes</h3>
@@ -205,7 +204,7 @@
                         </a>
                         <a class="td" href="#">
                         <div class="roomlpp">
-                            <div><img class="roomlpp1" src="room9.jpg"/></div>
+                            <div class="roomlpp12"><img class="roomlpp1" src="room9.jpg"/></div>
                             <div class="txt2">
                                 <div class="black">
                                 <h3>Hôtel tout bleu et blanc</h3>
