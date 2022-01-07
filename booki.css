@@ -301,6 +301,10 @@ nav ul li a:hover
     border-top-right-radius: 20px;
     object-fit: cover;
 }
+.room1small
+{
+    display: none;
+}
 .title2
 {
     margin-top: 40px;
@@ -366,6 +370,10 @@ nav ul li a:hover
     margin-left: 5px;
     display: flex;
     object-fit: cover;
+}
+.roomlpp1small
+{
+    display: none;
 }
 .roomlpp
 {
@@ -458,8 +466,27 @@ nav ul li a:hover
     width: 45%;
     height: 430px;
     border-radius: 25px;
-    margin-top: 40px;
     box-shadow: 3px 3px 3px rgb(163, 163, 196);
+}
+.img1small
+{
+    display: none;
+}
+.img2small
+{
+    display: none;
+}
+.img3small
+{
+    display: none;
+}
+.img4small
+{
+    display: none;
+}
+.img5small
+{
+    display: none;
 }
 .img1
 {
@@ -467,7 +494,6 @@ nav ul li a:hover
     height: 380px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    overflow: hidden;
     object-fit: cover;
 }
 .fodp
