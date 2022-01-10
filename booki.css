@@ -267,7 +267,7 @@ nav ul li a:hover
     border: none;
     border-radius: 25px;
 }
-.house2
+.bloc2hebergement
 {
     display: flex;
     justify-content: space-around;
@@ -275,7 +275,7 @@ nav ul li a:hover
     margin-right: 10px;
     margin-top: 20px;
 }
-.house
+.bloc1hebergement
 {
     display: flex;
     justify-content: space-around;
@@ -305,7 +305,7 @@ nav ul li a:hover
 {
     display: none;
 }
-.title2
+.titleh2
 {
     margin-top: 40px;
     margin-left: 20px;
