@@ -175,6 +175,7 @@ nav ul li a:hover
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    width: 60%;
 }
 .td
 {
@@ -211,10 +212,6 @@ nav ul li a:hover
     width: 40%;
     height: 100%;
 }
-.txt2
-{
-    width: 60%;
-}
 /*   lpp   */
 .room1small
 {
@@ -230,7 +227,7 @@ nav ul li a:hover
 {
     display: none;
 }
-.house
+.bloc1hebergement
 {
     display: flex;
     flex-direction: column;
@@ -239,7 +236,7 @@ nav ul li a:hover
     justify-content: center;
     align-items: center;
 }
-.house2
+.bloc2hebergement
 {
     display: flex;
     flex-direction: column;
@@ -249,7 +246,6 @@ nav ul li a:hover
     margin-right: 0px;
     margin-top: 0px;
 }
-
 #hebergement
 {
     margin-left: 0;
