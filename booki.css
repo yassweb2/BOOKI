@@ -231,7 +231,8 @@ nav ul li a:hover
     margin-left: 10px;
 }
 
-#cercle {
+#cercle 
+{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -245,7 +246,7 @@ nav ul li a:hover
     color: #0065FC;
 }
 /* heb à marseille */
-.txth
+.txthebergement
 {
     height: 90px;
     display: flex;
@@ -292,7 +293,7 @@ nav ul li a:hover
     border-radius: 20px;
     text-decoration: none;
 }
-.room1
+.imghebergement
 {
     height: 120px;
     width: 100%;
@@ -301,7 +302,7 @@ nav ul li a:hover
     border-top-right-radius: 20px;
     object-fit: cover;
 }
-.room1small
+.imghebsmall
 {
     display: none;
 }
