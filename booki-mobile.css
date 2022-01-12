@@ -167,7 +167,7 @@ nav ul li a:hover
     align-items: center;
     height: 600px;
 }
-.txt2
+.txtlpp
 {
     margin-bottom: 10px;
     margin-top: 10px;
@@ -177,7 +177,7 @@ nav ul li a:hover
     justify-content: space-between;
     width: 60%;
 }
-.td
+.txtdeco
 {
     width: 90%;
     height: 25%;
@@ -269,13 +269,13 @@ nav ul li a:hover
     margin-left: 10px;
 }
 /*   hebergement  */
-#container1
+#blocactivites
 {
     display: flex;
     flex-direction: column;
     width: 100%;
 }
-#containera
+#activitesleft
 {
     display: flex;
     flex-direction: column;
@@ -284,7 +284,7 @@ nav ul li a:hover
     margin-top: 30px;
     height: 850px;
 }
-#containerb
+#activitesright
 {
     display: flex;
     flex-direction: column;
@@ -415,7 +415,7 @@ nav ul li a:hover
     border-top-right-radius: 20px;
     object-fit: cover;
 }
-.title0
+.titleactivites
 {
     margin-left: 20px;
 }
