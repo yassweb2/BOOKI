@@ -1,4 +1,3 @@
-
 header
 {
     width: 100%;
@@ -19,7 +18,7 @@ header
     align-self: center;
     margin-top: 0;
 }
-.hebact
+.heb-act
 {
     width: 100%;
     margin-top: 20px;
@@ -88,43 +87,43 @@ nav ul li a:hover
     margin-top: 20px;
 }
 /* -- */
-#search
+#search-bar
 {
     height: 50px;
 }
-.iconrech
+.icon-search
 {
     display: flex;
     justify-content: center;
 }
-.rech
+.search
 {
     display: none;
 }
-.rechercher
+.search_right
 {
     width: 50px;
     height: 50px;
     border-bottom-left-radius: 15px;
     border-top-left-radius: 15px;
 }
-.rechercher1
+.search-right
 {
     width: 100px;
     height: 100px;
 }
-.recherche1
+.search-center
 {
     margin-right: -15px;
 }
 /*  Barre de recherche  */   
-#filtres
+#filters
 {
     display: flex;
     flex-direction: column;
     margin-top: 0;
 }
-.filtres
+.filters
 {
     flex-direction: column;
     margin-left: 0;
@@ -154,7 +153,7 @@ nav ul li a:hover
     border-radius: 0;   
     margin-left: 0;
 }
-.lppp
+.lpp
 {
     margin-top: 0;
     display: flex;
@@ -185,7 +184,7 @@ nav ul li a:hover
     flex-direction: row;
     height: 100%;
 }
-.roomlpp1small
+.picture-lpp-small
 {
     width: 100%;
     height: 100%;
@@ -199,17 +198,17 @@ nav ul li a:hover
     display: flex;
     object-fit: cover;
 }
-.roomlpp1
+.picture-lpp
 {
     display: none;
 }
-.roomlpp12
+.pic-lpp
 {
     width: 40%;
     height: 100%;
 }
 /*   lpp   */
-.imghebsmall
+.picture-hebsmall
 {
     display: flex;
     height: 140px;
@@ -219,11 +218,11 @@ nav ul li a:hover
     border-top-right-radius: 20px;
     object-fit: cover;
 }
-.imghebergement
+.picture-hebergement
 {
     display: none;
 }
-.bloc1hebergement
+.block1-hebergement
 {
     display: flex;
     flex-direction: column;
@@ -232,7 +231,7 @@ nav ul li a:hover
     justify-content: center;
     align-items: center;
 }
-.bloc2hebergement
+.block2-hebergement
 {
     display: flex;
     flex-direction: column;
@@ -265,7 +264,7 @@ nav ul li a:hover
     margin-left: 10px;
 }
 /*   hebergement  */
-#blocactivites
+#block-activites
 {
     display: flex;
     flex-direction: column;
@@ -342,27 +341,27 @@ nav ul li a:hover
     flex-direction: column;
     align-items: center;
 }
-.img1
+.pic-activites1
 {
     display: none;
 }
-.img2
+.pic-activites2
 {
     display: none;
 }
-.img3
+.pic-activites3
 {
     display: none;
 }
-.img4
+.pic-activites4
 {
     display: none;
 }
-.img5
+.pic-activites5
 {
     display: none;
 }
-.img1small
+.pic-activites-small
 {
     display: flex;
     width: 100%;
@@ -372,46 +371,7 @@ nav ul li a:hover
     overflow: hidden;
     object-fit: cover;
 }
-.img2small
-{
-    display: flex;
-    width: 100%;
-    height: 200px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    overflow: hidden;
-    object-fit: cover;
-}
-.img3small
-{
-    display: flex;
-    width: 100%;
-    height: 200px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    overflow: hidden;
-    object-fit: cover;
-}
-.img4small
-{
-    display: flex;
-    width: 100%;
-    height: 200px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    overflow: hidden;
-    object-fit: cover;
-}
-.img5small
-{
-    display: flex;
-    width: 100%;
-    height: 200px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    object-fit: cover;
-}
-.titleactivites
+.title-activites
 {
     margin-left: 20px;
 }
